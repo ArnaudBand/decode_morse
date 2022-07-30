@@ -43,3 +43,5 @@ def decode(message)
   result
 end
 
+decoded_message = decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts decoded_message
