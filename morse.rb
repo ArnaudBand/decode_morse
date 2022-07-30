@@ -33,6 +33,6 @@ end
 
 def decode_word(word)
   result = ''
-  word.split.each { |x| result += decode_char(x) }
+  word.split.each { |letter| result += decode_char(letter) }
   result
 end
