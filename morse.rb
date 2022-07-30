@@ -39,9 +39,9 @@ end
 
 def decode(message)
   result = ''
-  message.split('  ').each { |word| result += "#{decode_word(word)} "  }
+  message.split('  ').each { |word| result += "#{decode_word(word)} " }
   result
 end
 
-decoded_message = decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+decoded_message = decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
 puts decoded_message
